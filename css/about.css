@@ -1,0 +1,179 @@
+body {
+    height: 100%;
+    display: inline;
+}
+
+.internal {
+    width: 75%;
+    height: 100%;
+    float: left;
+}
+
+#opener {
+    margin-left: 4%;
+    margin-right: 4%;
+
+    width: 92%;
+
+    padding-bottom: 2.5%;
+}
+
+.row2 div{
+    width: 40%;
+    float: left;
+
+    background-color: white;
+    border-width: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 0px 1px rgb(189, 198, 211);
+
+    margin-bottom: 2.5%;
+
+    margin-left: 4%
+}
+
+.row2 :nth-child(2) {
+    margin-left: 12%;
+    margin-right: 4%;
+}
+
+.row2 div * {
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    text-align: center;
+}
+
+.row3 div{
+    color: black;
+    float: left;
+
+    width: 25%;
+
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.row4 div{
+    width: 25%;
+    float: right;
+}
+
+.row5 div{
+    width: 20%;
+    float: left;
+}
+
+aside {
+    width: 25%;
+    float: right;
+
+    margin-top: -50px;
+    margin-bottom: 2.5%;
+    text-align: center;
+
+    border-radius: 0px 0px 0px 15px;
+    background-color: white;
+    box-shadow: 0px 0px 0px 5px rgb(189, 198, 211);
+}
+
+#bgInfo {
+    background-color: white;
+    border-width: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 0px 1px rgb(189, 198, 211);
+}
+
+#mainInfo {
+    background-color: white;
+    border-width: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 0px 1px rgb(189, 198, 211);
+}
+
+.spacing {
+    margin-left: 2.5%;
+}
+
+.indent {
+    margin-left: 5%;
+}
+
+aside iframe {
+    width: 75%;
+    height: 50%;
+}
+
+@media print {
+    .internal {
+        width: 100%;
+    }
+
+    
+    header {
+        display: none;
+    }
+
+    footer {
+        display: none
+    }
+
+    #bgInfo {
+        background-color: #f7f7f7;
+    }
+
+    .NW2D_pageheader {
+        margin-top: 10px;
+    }
+
+    aside {
+        width: 92%;
+        float: top;
+        margin-top: 35%;
+        top: 0;
+    
+        text-align: center;
+    
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: 5px 5px 0px 1px rgb(189, 198, 211);
+
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    aside iframe {
+        width: 75%;
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+    aside {
+        width: 92%;
+        float: top;
+        margin-top: 2.5%;
+        top: 0;
+    
+        text-align: center;
+    
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: 5px 5px 0px 1px rgb(189, 198, 211);
+
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    aside iframe {
+        width: 75%;
+        height: 50%;
+    }
+
+    .internal {
+        width: 100%;
+        overflow: auto;
+    }
+
+} 

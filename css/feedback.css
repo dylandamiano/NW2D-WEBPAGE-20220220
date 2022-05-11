@@ -1,0 +1,109 @@
+.NW2D_pageheader {
+    width: 100%;
+    margin-bottom: 2.5%;
+}
+
+.NW2D_pageheader img {
+    width: 10%;
+
+    display: block;
+    margin: auto;
+
+    border-radius: 100%;
+    box-shadow: 0px 0px 0px 10px rgb(189, 198, 211);
+}
+
+.NW2D_pageheader figcaption {
+    display: block;
+
+    text-align: center;
+
+    width: 40%;
+    margin: auto;
+    font-size: 12x;
+}
+
+.internal {
+    width: 100%;
+    float: left;
+}
+
+#opener {
+    margin-left: 4%;
+    margin-right: 4%;
+
+    width: 92%;
+
+    padding-bottom: 1.5%;
+}
+
+.spacing {
+    margin-left: 2.5%;
+}
+
+#bgInfo {
+    background-color: white;
+    border-width: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 0px 1px rgb(189, 198, 211);
+}
+
+#mainInfo {
+    background-color: white;
+    border-width: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 0px 1px rgb(189, 198, 211);
+}
+
+#p_001 {
+    text-align: center;
+}
+
+#p_002 {
+    text-align: center;  
+
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#sect_003 textarea {
+    max-width: 97%;
+}
+
+table {
+    font-size: 75%;
+    width: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+table, ol, li, ul, tr, td, th, col, colgroup {
+    overflow:visible;
+    
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+thead {
+    font-weight: bold;
+}
+
+@media print {
+    header {
+        display: none;
+    }
+
+    footer {
+        display: none
+    }
+
+    #bgInfo {
+        background-color: #f7f7f7;
+    }
+
+    .NW2D_pageheader {
+        margin-top: 10px;
+    }
+}

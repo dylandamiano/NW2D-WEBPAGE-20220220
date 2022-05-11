@@ -1,0 +1,68 @@
+/*
+#opener {
+    margin-left: 4%;
+    margin-right: 4%;
+
+    width: 92%;
+
+    padding-bottom: 2.5%;
+}
+*/
+
+.row2 div{
+    width: 50%;
+    float: left;
+}
+
+.row3 {
+    width: 100%;
+    overflow: auto;
+}
+
+.row3 div{
+    color: black;
+    float: left;
+
+    width: 28%;
+}
+
+.box1 {
+    background-color: white;
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px 1px rgb(189, 198, 211);
+    margin: 2.5%;
+}
+
+.box1 * {
+    padding: 0 5% 0 5%;
+}
+
+.box2 {
+    background-color: white;
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px 1px rgb(189, 198, 211);
+    margin: 2.5%;
+}
+
+.innerBox1 {
+    width: 100%;
+    clear: both;
+}
+
+.row3 img {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+.row4 div{
+    width: 25%;
+    float: right;
+}
+
+.row5 div{
+    width: 20%;
+    float: left;
+}

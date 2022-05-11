@@ -1,0 +1,206 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e7e7e7;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    top: 0;
+
+    height: 100%;
+}
+
+header {
+    top: 0;
+
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+
+    background-color: rgb(176, 184, 196);
+}
+
+h1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    top: 0;
+    font-size: 30px;
+}
+
+header a {
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover{
+    background-color: rgb(158, 167, 179);
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+    padding: .5% 0 .5% 0;
+
+    background-color: rgb(189, 198, 211);
+}
+
+nav a {
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+
+    margin-top: 2.5%;
+    margin-bottom:2.5%;
+
+    padding: .5%;
+}
+
+nav a:hover() {
+    background-color: red;
+    text-decoration: bold;
+}
+
+#opener {
+    font-size: 18px;
+    width: 100%;
+}
+
+.row2 div{
+    width: 50%;
+    float: left;
+}
+
+.row3 div{
+    color: black;
+    width: 33%;
+    float: left;
+}
+
+.row4 div{
+    width: 25%;
+    float: right;
+}
+
+.row5 div{
+    width: 20%;
+    float: left;
+}
+
+footer {
+    clear: both;
+    position: relative;
+
+    font-size: 12px;
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    width: 100%;
+
+    bottom: 0;
+    float: bottom;
+
+    text-align: center;
+
+    background-color: rgb(200, 212, 228);
+}
+
+
+
+/*
+footer {
+    text-align: center;
+    font-size: 18px;
+}
+
+footer {
+    position: fixed;
+
+    font-size: 12px;
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    width: 100%;
+
+    bottom: 0%;
+    float: bottom;
+
+    text-align: center;
+
+    background-color: rgb(200, 212, 228);
+}
+*/
+
+footer p {
+    text-align: center;
+}
+
+@media print {
+    header {
+        display: none;
+    }
+
+    footer {
+        display: none
+    }
+
+    body {
+        background-color: white;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    nav {
+        width: 100%;
+        padding: .5% 0 .5% 0;
+    
+        background-color: rgb(189, 198, 211);
+    }
+
+    nav a {
+        display: block !important;
+    }
+
+    #show {
+        display: block !important;
+    }
+} 
+
+@media screen and (min-width: 501px) {
+    #show {
+        display: none !important;
+    }
+
+    nav {
+        display: block !important;
+    }
+} 
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+  }
